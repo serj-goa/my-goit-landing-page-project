@@ -81,11 +81,11 @@ body {
 /* COMMON */
 
 .tablet-element {
-  display: none !important;
+  display: none;
 }
 
 .desktop-element {
-  display: none !important;
+  display: none;
 }
 
 .mobile-element {
@@ -1585,5 +1585,15 @@ body {
 
   .project-modal-container {
     padding: 95px;
+  }
+
+  .my-video-container {
+    height: 80%;
+  }
+
+  .modal-close-btn {
+    top: 4%;
+    right: 4%;
+    z-index: 3;
   }
 }
